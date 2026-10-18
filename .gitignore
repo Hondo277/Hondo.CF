@@ -1,0 +1,13 @@
+dist/
+.vercel/
+node_modules/
+
+# Configuration locale, secrets et journaux
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+.cache/
+.tmp/

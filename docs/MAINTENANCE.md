@@ -56,3 +56,16 @@ Rechercher `https://hondocf.vercel.app` dans `index.html`, `scripts/layout.mjs`,
 Construire avec `npm run build`, puis publier `dist/` ou laisser Vercel exécuter le build lorsqu’une intégration Git est configurée.
 
 `dist/`, `.vercel/`, `node_modules/`, les fichiers `.env`, journaux et caches sont ignorés. Le projet actuel n’utilise pas de secret applicatif. Les données privées du logiciel Hondo Studio ne font pas partie de ce dépôt.
+
+## Google Search Console
+
+La propriété de préfixe d’URL `https://hondocf.vercel.app/` a été validée le 24 octobre 2026 par la balise HTML `google-site-verification` présente dans le `<head>` de `index.html`.
+
+**Conserver cette balise dans les prochaines versions** : Google la revérifie pour maintenir la preuve de propriété. Elle doit rester visible dans le HTML publié de l’accueil.
+
+- [Tableau de bord Search Console](https://search.google.com/search-console?resource_id=https%3A%2F%2Fhondocf.vercel.app%2F)
+- Sitemap à déclarer : `https://hondocf.vercel.app/sitemap.xml`, généré avec les huit pages publiques.
+- Règles d’exploration : `https://hondocf.vercel.app/robots.txt`.
+- Après une modification importante, utiliser l’inspection de l’URL pour contrôler l’accès de Google et, si nécessaire, demander une nouvelle indexation.
+
+Une validation de propriété ou l’envoi d’un sitemap ne garantit ni l’indexation de toutes les pages ni une position dans les résultats. Les rapports commencent à se remplir après le traitement des données par Google.

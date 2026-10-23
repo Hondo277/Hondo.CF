@@ -69,3 +69,5 @@ La propriété de préfixe d’URL `https://hondocf.vercel.app/` a été validé
 - Après une modification importante, utiliser l’inspection de l’URL pour contrôler l’accès de Google et, si nécessaire, demander une nouvelle indexation.
 
 Une validation de propriété ou l’envoi d’un sitemap ne garantit ni l’indexation de toutes les pages ni une position dans les résultats. Les rapports commencent à se remplir après le traitement des données par Google.
+
+État initial au 24 octobre 2026 : Google a traité le sitemap avec succès et découvert les huit pages. L’accueil n’était pas encore indexé lors de l’inspection. La demande manuelle d’indexation a été refusée avec « quota quotidien dépassé », et Google a demandé de réessayer le lendemain. Le sitemap reste enregistré indépendamment de cette demande.
